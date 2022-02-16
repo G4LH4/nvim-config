@@ -5,6 +5,7 @@ set noerrorbells
 set sw=2
 set expandtab
 set smartindent
+set smartcase
 set rnu
 set numberwidth=1
 set number
@@ -25,3 +26,5 @@ highlight Column ctermbg=0 guibg=lightgrey
 
 so C:\Users\totog\AppData\Local\nvim\plugins.vim
 
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = "hard"
